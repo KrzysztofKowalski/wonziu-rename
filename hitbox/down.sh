@@ -3,7 +3,9 @@ curl http://jadisco.pl/archiwum.php > arch.html
 for a in `cat arch.html | grep hb | cut -d'=' -f4 | cut -d'"' -f1`; 
 do 
 
-if [ -f ${a}.mp4 ]
+R=`ls $a*|wc -l`;
+
+if [ $R -gt 0 ]
 then
 echo $a already fetched!, `stat $a.mp4`
 else
