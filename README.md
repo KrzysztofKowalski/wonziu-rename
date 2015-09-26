@@ -1,5 +1,4 @@
-=====
-co i jak
+==== co i jak
 
 wymaga
 
