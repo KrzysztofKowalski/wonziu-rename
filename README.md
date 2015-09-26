@@ -1,8 +1,8 @@
-==== co i jak
+# co i jak
 
-wymaga
+## wymaga
 
-- livestreamer
-- rtmpdump
-- mac os ;)
-- sbt
+* liivestreamer
+* rtmpdump
+* mac os ;)
+* sbt
